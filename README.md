@@ -87,6 +87,14 @@ This project is a user authentication system built with the MERN stack (MongoDB,
 - Ensure MongoDB is running and the URI in the `.env` file is correct.
 - This project uses `dotenv` for environment variables. Make sure to create a `.env` file in the `Backend` directory.
 
+## XSS Protection Modules
+
+### Backend
+
+'helmet': Helmet helps secure your Express apps by setting various HTTP headers. It can protect your app from some well-known web vulnerabilities by setting HTTP headers appropriately
+
+xss-clean: Middleware to sanitize user input and prevent XSS attacks.
+
 ## License
 
 This project is licensed under the MIT License.
