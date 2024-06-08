@@ -114,9 +114,9 @@ Before you begin, ensure you have the following installed:
 
   Installation:
 
-  ```bash
-  npm install helmet
-  ```
+    ```bash
+    npm install helmet
+    ```
 - **XSS clean**:  Middleware to sanitize user input and prevent XSS attacks.
 
   Installation:
@@ -130,9 +130,9 @@ Before you begin, ensure you have the following installed:
 
 -   Installation:
 
-    ```bash
-    npm install dompurify
-   ```
+      ```bash
+      npm install dompurify
+      ```
 
 ## API Endpoints
 
