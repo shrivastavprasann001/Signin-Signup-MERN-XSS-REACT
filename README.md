@@ -124,7 +124,7 @@ Before you begin, ensure you have the following installed:
   ```bash
   npm install xss-clean
   ```
-####Frontend
+#### Frontend
 
 - **DOMPurify**:  Used to sanitize any HTML content before rendering it in the browser, ensuring that any embedded scripts or malicious content are removed.
 
@@ -134,9 +134,9 @@ Before you begin, ensure you have the following installed:
     npm install dompurify
    ```
 
-##API Endpoints
+## API Endpoints
 
-###Authentication
+### Authentication
 
 - **Register User**
 
@@ -150,7 +150,7 @@ Before you begin, ensure you have the following installed:
     POST /api/auth/login
    ```
 
-##Additional Notes
+## Additional Notes
 
  -Ensure MongoDB is running and the URI in the .env file is correct.
  -This project uses dotenv for environment variables. Make sure to create a .env file in the Backend directory.
