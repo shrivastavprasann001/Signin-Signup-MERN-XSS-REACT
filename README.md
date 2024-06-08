@@ -152,7 +152,7 @@ Before you begin, ensure you have the following installed:
 
 ## Additional Notes
 
- -Ensure MongoDB is running and the URI in the .env file is correct.
- -This project uses dotenv for environment variables. Make sure to create a .env file in the Backend directory.
- -Always keep your dependencies up to date to avoid vulnerabilities.
+ - Ensure MongoDB is running and the URI in the .env file is correct.
+ - This project uses dotenv for environment variables. Make sure to create a .env file in the Backend directory.
+ - Always keep your dependencies up to date to avoid vulnerabilities.
 
