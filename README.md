@@ -19,7 +19,6 @@ This project is a user authentication system built with the MERN stack (MongoDB,
    - [XSS Protection](#xss-protection)
 6. [API Endpoints](#api-endpoints)
 7. [Additional Notes](#additional-notes)
-8. [License](#license)
 
 ## Overview
 
@@ -117,3 +116,43 @@ Before you begin, ensure you have the following installed:
 
   ```bash
   npm install helmet
+  ```
+- **XSS clean**:  Middleware to sanitize user input and prevent XSS attacks.
+
+  Installation:
+
+  ```bash
+  npm install xss-clean
+  ```
+####Frontend
+
+- **DOMPurify**:  Used to sanitize any HTML content before rendering it in the browser, ensuring that any embedded scripts or malicious content are removed.
+
+-   Installation:
+
+    ```bash
+    npm install dompurify
+   ```
+
+##API Endpoints
+
+###Authentication
+
+- **Register User**
+
+    ```bash
+    POST /api/auth/register
+   ```
+
+-  **Login User**
+
+  ```bash
+    POST /api/auth/login
+   ```
+
+##Additional Notes
+
+ -Ensure MongoDB is running and the URI in the .env file is correct.
+ -This project uses dotenv for environment variables. Make sure to create a .env file in the Backend directory.
+ -Always keep your dependencies up to date to avoid vulnerabilities.
+
