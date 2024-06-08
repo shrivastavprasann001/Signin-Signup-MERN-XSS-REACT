@@ -95,6 +95,12 @@ This project is a user authentication system built with the MERN stack (MongoDB,
 
 xss-clean: Middleware to sanitize user input and prevent XSS attacks.
 
+If Any other issue occurs then 
+**Run the Command**
+
+   ```bash
+   npm update
+   ```
 ## License
 
 This project is licensed under the MIT License.
